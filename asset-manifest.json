@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bitleighvu/bitleighvu.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/bitleighvu/bitleighvu.github.io/static/js/main.6e27ceed.chunk.js",
+    "main.js.map": "/bitleighvu/bitleighvu.github.io/static/js/main.6e27ceed.chunk.js.map",
+    "runtime-main.js": "/bitleighvu/bitleighvu.github.io/static/js/runtime-main.4ec2fe3c.js",
+    "runtime-main.js.map": "/bitleighvu/bitleighvu.github.io/static/js/runtime-main.4ec2fe3c.js.map",
+    "static/js/2.b1fc05e8.chunk.js": "/bitleighvu/bitleighvu.github.io/static/js/2.b1fc05e8.chunk.js",
+    "static/js/2.b1fc05e8.chunk.js.map": "/bitleighvu/bitleighvu.github.io/static/js/2.b1fc05e8.chunk.js.map",
+    "index.html": "/bitleighvu/bitleighvu.github.io/index.html",
+    "precache-manifest.22943ddec0a26278f4ee9fe3caf3c7a2.js": "/bitleighvu/bitleighvu.github.io/precache-manifest.22943ddec0a26278f4ee9fe3caf3c7a2.js",
+    "service-worker.js": "/bitleighvu/bitleighvu.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/bitleighvu/bitleighvu.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b1fc05e8.chunk.js.LICENSE.txt": "/bitleighvu/bitleighvu.github.io/static/js/2.b1fc05e8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/bitleighvu/bitleighvu.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ec2fe3c.js",
+    "static/js/2.b1fc05e8.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6e27ceed.chunk.js"
+  ]
+}
