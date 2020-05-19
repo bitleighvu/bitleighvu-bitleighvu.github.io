@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Header from './Common/Header';
 import Footer from './Common/Footer';
@@ -11,19 +11,19 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <div id="entire-page">
         <div id="page-container">
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route path="/about" component={About} />
             <Route component={PageNotFound} />
           </Switch>
           <Footer />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
