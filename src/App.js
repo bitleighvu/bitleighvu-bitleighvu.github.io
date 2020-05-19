@@ -5,9 +5,7 @@ import Header from './Common/Header';
 import Footer from './Common/Footer';
 import Home from './Home/Home';
 import About from './About/About';
-
-
-// import PageNotFound from './PageNotFound';
+import PageNotFound from './PageNotFound';
 
 import './App.css';
 
@@ -20,6 +18,7 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route component={PageNotFound} />
           </Switch>
           <Footer />
         </div>
