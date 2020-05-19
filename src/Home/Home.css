@@ -5,7 +5,7 @@
 }
 
 #name-header {
-    font-size: 120px;
+    font-size: 8vw;
     color: white;
     position: absolute;  
     left: 50%;                        
@@ -15,7 +15,7 @@
 
 #headliner {
     text-align: center;
-    font-size: 25px;
+    font-size: 2vw;
     color: white;
     position: absolute;  
     left: 50%;                        
