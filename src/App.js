@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from './Common/Header';
 import Footer from './Common/Footer';
@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <HashRouter basename="/">
+    <BrowserRouter basename="https://bitleighvu.github.io">
       <div id="entire-page">
         <div id="page-container">
           <Header />
@@ -23,7 +23,7 @@ const App = () => {
           <Footer />
         </div>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
