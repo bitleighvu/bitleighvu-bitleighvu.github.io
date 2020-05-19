@@ -1,6 +1,6 @@
 #header1 {
     height: 15vh;
-    background-color: black;
+    background-color: white;
 }
 
 #topBrand {
@@ -27,17 +27,17 @@
 }
 
 .nav-link {
-    color: white;
+    color: black;
     font-family: 'Jost', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
 
 .nav-link:hover {
-    color: white;
+    color: black;
 }
 
 #center-text {
     margin: 0 auto;
-    padding-left: 5vw;
+    padding-left: 12vw;
 }

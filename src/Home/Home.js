@@ -7,7 +7,7 @@ const Home = () => {
   return (  
     <div>  
         <img
-          src={process.env.PUBLIC_URL + "/images/macbookHome.jpg"}
+          src={process.env.PUBLIC_URL + "/images/phone.jpg"}
           alt="Facebook Logo"
           id="large-images"
         ></img>

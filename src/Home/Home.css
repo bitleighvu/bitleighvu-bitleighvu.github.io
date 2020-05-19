@@ -22,3 +22,18 @@
     top: 48%;                         
     transform: translate(-50%, -50%);
 }
+
+@media all and (max-width: 500px) {
+    #large-images {
+        height: 80vh;
+    }
+
+    #name-header {
+        top: 40%;
+    }
+
+    #headliner {
+        top: 46%;
+        font-size: 3vw;
+    }
+}
