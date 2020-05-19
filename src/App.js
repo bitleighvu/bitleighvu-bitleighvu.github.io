@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from './Common/Header';
 import Footer from './Common/Footer';
@@ -9,15 +9,16 @@ import PageNotFound from './PageNotFound';
 
 import './App.css';
 
+
 const App = () => {
   return (
-    <BrowserRouter basename="https://bitleighvu.github.io">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div id="entire-page">
         <div id="page-container">
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
             <Route component={PageNotFound} />
           </Switch>
           <Footer />
