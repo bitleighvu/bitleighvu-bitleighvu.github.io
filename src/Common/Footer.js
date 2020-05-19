@@ -7,7 +7,7 @@ import './Footer.css';
 const Footer = () => {
 
   return (
-    <div className="fixed-bottom footer" id="footer">
+    <div id="footer">
         <div className="row justify-content-around">
             <div className="col-4">
                 <div id="brand">BitLeigh Vu</div>
