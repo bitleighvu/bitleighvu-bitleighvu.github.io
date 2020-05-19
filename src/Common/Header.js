@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg" id="header1">
-            <a className="navbar-brand" href="/" id="topBrand">BitLeigh Vu</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#center-text" aria-controls="center-text" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
