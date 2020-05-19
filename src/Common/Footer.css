@@ -1,0 +1,34 @@
+#footer {
+    height: 300px;
+    background-color: #38383b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#brand {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: left;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.text-col {
+    text-align: left;
+    font-size: 17px;
+    display: block;
+}
+
+.nav-link {
+    display: block;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #A8A6A2;
+}
+
+
+
+
