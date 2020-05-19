@@ -1,0 +1,24 @@
+#large-images {
+    width: 100%;
+    padding-top: 0vh;
+    position: relative;
+}
+
+#name-header {
+    font-size: 120px;
+    color: white;
+    position: absolute;  
+    left: 50%;                        
+    top: 40%;                         
+    transform: translate(-50%, -50%);
+}
+
+#headliner {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: absolute;  
+    left: 50%;                        
+    top: 48%;                         
+    transform: translate(-50%, -50%);
+}
