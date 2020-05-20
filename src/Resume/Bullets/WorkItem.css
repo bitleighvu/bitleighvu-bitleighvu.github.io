@@ -1,0 +1,26 @@
+.work-item {
+    margin-bottom: 3vh;
+}
+
+.work-job {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1vh;
+}
+
+.work-company {
+    color: #e2725b;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.work-location, .work-date {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.work-description {
+    font-size: 1rem;
+}
+
