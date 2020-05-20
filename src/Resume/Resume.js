@@ -20,9 +20,9 @@ const Resume = () => {
                     <div id="resume-header">
                         Resume
                     </div>
-                    <Link to="/files/BitLeighVuResume.pdf" target="_blank" download>
+                    <a href="/files/BitLeighVuResume.pdf" target="_blank" download>
                         <button type="button" className="btn btn-light" id="download-button">Download Resume</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div id="full-resume">
