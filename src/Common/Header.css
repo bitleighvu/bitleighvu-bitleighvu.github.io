@@ -1,11 +1,5 @@
 #header1 {
     height: 15vh;
-    background-color: white;
-}
-
-#topBrand {
-    color: #ffffff;
-    font-size: 32px;
 }
 
 .navbar-toggler-icon,
@@ -27,14 +21,14 @@
 }
 
 .nav-link {
-    color: black;
+    color: white;
     font-family: 'Jost', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
 
 .nav-link:hover {
-    color: black;
+    color: white;
 }
 
 #center-text {

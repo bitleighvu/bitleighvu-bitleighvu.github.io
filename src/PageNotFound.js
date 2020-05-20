@@ -6,7 +6,8 @@ const PageNotFound = () => {
   return (  
     <div className="entire-pg">
         <div id="whole-box">
-            <div id="text-box">
+          <div id="wrap-this">
+          <div id="text-box">
             <div id="big-text">
                 Oops! 
             </div>
@@ -14,6 +15,7 @@ const PageNotFound = () => {
                 We can't seem to find the page you're looking for!
             </div>
             </div>
+          </div>
             
         </div>
     </div>

@@ -9,15 +9,18 @@ const Resume = () => {
 
   return (  
     <div className="entire-pg">
+        
         <div id="wrapper">
-            <div id="resume-top-bar">
+            <div className="header-wrapper">
                 <img
                     src={process.env.PUBLIC_URL + "/images/resumeHeader.jpg"}
-                    alt="Facebook Logo"
+                    alt="Resume Header"
                     id="resume-image"
                 ></img>
+            </div>
+            <div id="resume-top-bar">
                 <div id="header-text-box">
-                    <div id="resume-header">
+                    <div className="text-header">
                         Resume
                     </div>
                     <a href="/files/BitLeighVuResume.pdf" target="_blank" download>

@@ -1,13 +1,6 @@
 #about-box {
     width: 100%;
-    background-color: #a7c6cb;
-    padding-top: 2vh;
     padding-bottom: 2vh;
-}
-
-#page-header {
-    font-size: 5vw;
-    text-align: center;
 }
 
 #text-box {
@@ -23,9 +16,8 @@
 }
 
 @media all and (max-width: 500px) {
-    #page-header {
+    #heading-bar {
         order: 1;
-        font-size: 9vw;
     }
 
     #about-pic {

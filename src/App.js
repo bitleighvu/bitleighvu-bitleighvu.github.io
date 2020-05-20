@@ -23,8 +23,8 @@ const App = () => {
             <Route path='/resume' component={Resume} />
             <Route component={PageNotFound} />
           </Switch>
+          </div>
           <Footer />
-        </div>
       </div>
     </BrowserRouter>
   );

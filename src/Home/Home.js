@@ -5,17 +5,19 @@ import './Home.css';
 const Home = () => {
 
   return (  
-    <div>  
-        <img
-          src={process.env.PUBLIC_URL + "/images/phone.jpg"}
-          alt="Facebook Logo"
-          id="large-images"
-        ></img>
-        <div id="name-header">
-            BitLeigh Vu
-        </div>
-        <div id="headliner">
-            4th Year Computer Science Student at Georgia Institute of Technology
+    <div id="home-pg"> 
+        <div id="home-wrapper">
+          <img
+            src={process.env.PUBLIC_URL + "/images/phone.jpg"}
+            alt="Home"
+            id="large-images"
+          ></img>
+          <div id="name-header">
+              BitLeigh Vu
+          </div>
+          <div id="headliner">
+              Tech. Homemade Bread. Dogs.
+          </div>
         </div>
     </div>
   );

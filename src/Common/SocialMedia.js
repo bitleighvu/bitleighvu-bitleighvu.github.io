@@ -14,7 +14,7 @@ const SocialMedia = () => {
         >
             <div>
                 <img
-                src={process.env.PUBLIC_URL + "/images/facebookLogo.png"}
+                src={process.env.PUBLIC_URL + "/images/facebookLogoWhite.png"}
                 alt="Facebook Logo"
                 className="sm-images"
                 ></img>
@@ -28,7 +28,7 @@ const SocialMedia = () => {
         >
             <div>
                 <img
-                src={process.env.PUBLIC_URL + "/images/githubLogo.png"}
+                src={process.env.PUBLIC_URL + "/images/githubLogoWhite.png"}
                 alt="Github Logo"
                 className="sm-images"
                 ></img>
@@ -42,7 +42,7 @@ const SocialMedia = () => {
         >
             <div>
                 <img
-                src={process.env.PUBLIC_URL + "/images/linkedinLogo.png"}
+                src={process.env.PUBLIC_URL + "/images/linkedinLogoWhite.png"}
                 alt="Linkedin Logo"
                 className="sm-images"
                 ></img>
