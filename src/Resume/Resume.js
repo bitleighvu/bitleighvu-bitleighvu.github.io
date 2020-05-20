@@ -49,10 +49,10 @@ const Resume = () => {
                             company={"American Express"}
                             link={"https://www.americanexpress.com/"}
                             location={"Remote"}
-                            date={"Beginning June 2020"}
+                            date={"Beginning July 2020"}
                         />
                         <WorkItem 
-                            job={"Software Developement Intern"}
+                            job={"Software Developer Intern"}
                             company={"American Express"}
                             link={"https://www.americanexpress.com/"}
                             location={"Phoenix, Arizona"}
@@ -97,6 +97,26 @@ const Resume = () => {
                             <li>Question, Persuade, and Refer (Suicide Prevention Training)</li>
                             <li>Safe Space Certified (LGBTQIA Ally Training)</li>
                         </ul>
+                    </div>
+                </div>
+                <div className="row section-marker">
+                    <div className="col-sm-4 section-header">Projects</div>
+                    <div className="col-sm-8">
+                        <WorkItem 
+                            job={"Front-End Web Developer Lead"}
+                            company={"GT Student Center Programs Council"}
+                            link={"https://studentcenter.gatech.edu/scpc"}
+                            location={"Atlanta, Georgia"}
+                            date={"April 2018 - Present"}
+                            description={"Utilize a React framework and MongoDB database to create a site to manage Georgia Tech’s student-led event planning organization"}
+                        />
+                        <WorkItem 
+                            job={"Software Developer"}
+                            company={"Class Project"}
+                            location={"Atlanta, Georgia"}
+                            date={"August 2018 - December 2018"}
+                            description={"An internal resource planning Android Application to efficiently track and categorize donations to non-profit organizations. Track donations and utilize distribution metrics to further optimize services"}
+                        />
                     </div>
                 </div>
                 <div className="row section-marker">
