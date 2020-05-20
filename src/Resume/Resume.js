@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import WorkItem from './Bullets/WorkItem';
 import EducationItem from './Bullets/EducationItem';
 import './Resume.css';
@@ -18,7 +20,9 @@ const Resume = () => {
                     <div id="resume-header">
                         Resume
                     </div>
-                    <button type="button" className="btn btn-light" id="download-button">Download Resume</button>
+                    <Link to="/files/BitLeighVuResume.pdf" target="_blank" download>
+                        <button type="button" className="btn btn-light" id="download-button">Download Resume</button>
+                    </Link>
                 </div>
             </div>
             <div id="full-resume">
@@ -83,6 +87,7 @@ const Resume = () => {
                         <ul id="lists-box">
                             <li>Java</li>
                             <li>JavaScript</li>
+                            <li>Python</li>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>React</li>
