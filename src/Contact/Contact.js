@@ -18,7 +18,7 @@ export default class Contact extends React.Component {
             <div id="about-box">
                 <div className="header-wrapper">
                     <img
-                        src={process.env.PUBLIC_URL + "/images/contactHeader.jpg"}
+                        src={process.env.PUBLIC_URL + "/images/contactHeader1.jpg"}
                         alt="Contact Header"
                         id="resume-image"
                     ></img>
