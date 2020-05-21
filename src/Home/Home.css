@@ -51,10 +51,11 @@
 
     #name-header {
         top: 40%;
+        font-size: 10vw;
     }
 
     #headliner {
         top: 46%;
-        font-size: 3vw;
+        font-size: 6vw;
     }
 }

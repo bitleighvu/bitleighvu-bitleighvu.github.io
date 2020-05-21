@@ -92,6 +92,11 @@
         font-size: 60px;
     }
 
+    #download-button {
+        position: absolute;  
+        margin-top: 22%;  
+    }
+
     .section-header {
         font-size: 7vw;
     }
