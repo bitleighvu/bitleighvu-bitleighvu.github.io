@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import WorkItem from './Bullets/WorkItem';
 import EducationItem from './Bullets/EducationItem';
@@ -9,7 +8,6 @@ const Resume = () => {
 
   return (  
     <div className="entire-pg">
-        
         <div id="wrapper">
             <div className="header-wrapper">
                 <img
@@ -24,7 +22,7 @@ const Resume = () => {
                         Resume
                     </div>
                     <a href="/files/BitLeighVuResume.pdf" target="_blank" download>
-                        <button type="button" className="btn btn-light" id="download-button">Download Resume</button>
+                        <button type="button" className="btn btn-light" id="download-button">Download Resume →</button>
                     </a>
                 </div>
             </div>
@@ -160,6 +158,7 @@ const Resume = () => {
                     <div className="col-sm-4 section-header">Honors & Awards</div>
                     <div className="col-sm-8">
                         <ul id="lists-box">
+                            <li>2019 Georgia Tech Department of Housing Community Builder Award</li>
                             <li>2017 President’s Volunteer Service Award</li>
                         </ul>
                     </div>

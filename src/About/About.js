@@ -1,6 +1,5 @@
 import React from 'react';
 
-import PictureBar from '../Common/PictureBar';
 import './About.css';
 
 const About = () => {
