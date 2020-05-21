@@ -6,6 +6,7 @@ import Footer from './Common/Footer';
 import Home from './Home/Home';
 import About from './About/About';
 import Resume from './Resume/Resume';
+import Contact from './Contact/Contact';
 import PageNotFound from './PageNotFound';
 
 import './App.css';
@@ -21,6 +22,7 @@ const App = () => {
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/resume' component={Resume} />
+            <Route path='/contact' component={Contact} />
             <Route component={PageNotFound} />
           </Switch>
           </div>

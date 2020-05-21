@@ -1,0 +1,36 @@
+#contact-box {
+    width: 100%;
+    padding-bottom: 2vh;
+}
+
+#text-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#confirmation-success {
+    margin-top: 5vh;
+    padding: 5vh;
+    background:#98FB98;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#confirmation-error {
+    margin-top: 5vh;
+    padding: 5vh;
+    background: #FFFF99;
+    text-align: center;
+    border-radius: 25px;
+}
+
+@media all and (max-width: 500px) {
+    #heading-bar {
+        order: 1;
+    }
+}
