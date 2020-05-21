@@ -26,12 +26,12 @@
 .text-header {
     position: absolute;
     width: 100%;
-    margin-top: 1%;  
     text-align: left;
     font-weight: bold;
     font-size: 7vw;
     color: white;
 }
+
 
 #download-button {
     position: absolute;  
@@ -92,9 +92,10 @@
         font-size: 60px;
     }
 
+   
     #download-button {
         position: absolute;  
-        margin-top: 22%;  
+        margin-top: 10vh;  
     }
 
     .section-header {
