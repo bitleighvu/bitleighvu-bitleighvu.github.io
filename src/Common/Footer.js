@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialMedia from './SocialMedia';
+import SocialMediaWhite from './SocialMediaWhite';
 
 import './Footer.css';
 
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row justify-content-around">
             <div className="col-4">
                 <div id="brand">BitLeigh Vu</div>
-                <SocialMedia />
+                <SocialMediaWhite />
             </div>
             <div className="col-5">
                 <div className="row section-header-box">
