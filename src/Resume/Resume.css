@@ -3,19 +3,10 @@
     padding-bottom: 2vh;
 }
 
-.header-wrapper {
-    width: 100%;
-    max-height: 10rem;
-    overflow: hidden;
-
-}
-
 #resume-top-bar {
-    position:relative;
     width: 100%;
-    min-height: 250px;
+    min-height: 20vh;
     margin-bottom: 5vh;
-    overflow: hidden;
 }
 
 #header-text-box {
@@ -23,28 +14,26 @@
     margin: 0 auto;
 }
 
+.text-description {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5vw;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Jost', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell'
+}
+
 .text-header {
-    position: absolute;
     width: 100%;
     text-align: left;
     font-weight: bold;
-    font-size: 7vw;
-    color: white;
+    font-size: 6vw;
+    color: black;
 }
-
 
 #download-button {
-    position: absolute;  
-    margin-top: 12%;  
-}
-
-#resume-image {
-    position: absolute;
-    top :0;
-    left: 0;
-    width: 100%;
-    max-height: 50vh;
-    z-index: -1;
+    background-color: #e2725b;
+    color: white;
 }
 
 #full-resume {
@@ -92,15 +81,15 @@
         font-size: 60px;
     }
 
-   
-    #download-button {
-        position: absolute;  
-        margin-top: 10vh;  
+    .text-description {
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Jost', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell'
     }
+
 
     .section-header {
         font-size: 7vw;
     }
-
 
 }

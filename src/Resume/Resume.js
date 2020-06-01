@@ -9,15 +9,11 @@ const Resume = () => {
   return (  
     <div className="entire-pg">
         <div id="wrapper">
-            <div className="header-wrapper">
-                <img
-                    src={process.env.PUBLIC_URL + "/images/resumeHeader.jpg"}
-                    alt="Resume Header"
-                    id="resume-image"
-                ></img>
-            </div>
             <div id="resume-top-bar">
                 <div id="header-text-box">
+                    <div className="text-description">
+                        experience & leadership
+                    </div>
                     <div className="text-header">
                         Resume
                     </div>
