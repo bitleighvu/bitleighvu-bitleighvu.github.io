@@ -5,7 +5,7 @@
 .navbar-toggler-icon,
 .navbar-toggler {
     height: 5vh;
-    color: #ffffff;
+    color: black;
 }
 
 .navbar-nav {
@@ -21,14 +21,10 @@
 }
 
 .nav-link {
-    color: white;
+    color: #212529;
     font-family: 'Jost', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-}
-
-.nav-link:hover {
-    color: white;
 }
 
 #center-text {
