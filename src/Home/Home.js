@@ -8,7 +8,7 @@ const Home = () => {
     <div id="home-pg"> 
         <div id="home-wrapper">
           <img
-            src={process.env.PUBLIC_URL + "/images/phone.jpg"}
+            src={process.env.PUBLIC_URL + "/images/colorway.jpg"}
             alt="Home"
             id="large-images"
           ></img>
