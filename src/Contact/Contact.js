@@ -16,18 +16,12 @@ export default class Contact extends React.Component {
     return (
         <div className="entire-pg">
             <div id="about-box">
-                <div className="header-wrapper">
-                    <img
-                        src={process.env.PUBLIC_URL + "/images/contactHeader1.jpg"}
-                        alt="Contact Header"
-                        id="resume-image"
-                    ></img>
-                </div>
-                <div id="resume-top-bar">
-                    <div id="header-text-box">
-                        <div className="text-header">
-                            Contact
-                        </div>
+                <div id="header-text-box">
+                  <div className="text-description">
+                        making connections
+                    </div>
+                    <div className="text-header">
+                        Contact
                     </div>
                 </div>
                 <form 
@@ -37,24 +31,23 @@ export default class Contact extends React.Component {
                     method="POST"
                     id="contact-form"
                     >
-                    <div className="form-group">
+                    <div className="form-group text-left">
                         <label htmlFor="name">Name</label>
                         <input type="text" className="form-control" name="name" placeholder="George P. Burdell" required/>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group text-left">
                         <label htmlFor="email">Email Address</label>
                         <input type="email" className="form-control" name="email" placeholder="georgepburdell@example.com" required/>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group text-left">
                         <label htmlFor="message">Message</label>
                         <textarea className="form-control" name="message" rows="5" required></textarea>
                     </div>
-                    {status === "SUCCESS" ? <p id="confirmation-success">Thanks for your submission! I'll be in contact shortly! </p> : <button className="btn btn-secondary">Submit</button>}
+                    {status === "SUCCESS" ? <p id="confirmation-success">Thanks for your submission! I'll be in contact shortly! </p> : <button className="btn btn-secondary submitButton">Submit</button>}
                     {status === "ERROR" && <p id="confirmation-error">Ooops! There was an error! Please try again!</p>}
                 </form>
-
-            </div>
-        </div>
+              </div>
+          </div>
     );
   }
 
