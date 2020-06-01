@@ -17,7 +17,7 @@
 .text-description {
     width: 100%;
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 2.4vh;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Jost', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell'
@@ -67,14 +67,7 @@
         position:relative;
         width: 100%;
         min-height: 120px;
-        margin-bottom: 10vh;
-
-    }
-
-    #resume-image {
-        position: absolute;
-        width: 100%;
-        height: 18rem;
+        margin-bottom: 5vh;
     }
 
     .text-header {
