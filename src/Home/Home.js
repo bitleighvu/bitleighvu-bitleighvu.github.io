@@ -12,14 +12,12 @@ const Home = () => {
             alt="Home"
             id="large-images"
           ></img>
-          <div id="name-header">
-              BitLeigh Vu
+          <div id="home-header">
+            You belong. You matter.
           </div>
-          <div id="headliner">
-              Tech. Homemade Bread. Dogs.
-          </div>
-        </div>
-    </div>
+      </div>
+  </div>
+        
   );
 };
 
