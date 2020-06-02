@@ -32,6 +32,30 @@
     margin-bottom: 5vh;
 }
 
+#question-box {
+    clear: both;
+    width: 100%;
+    background-color: #bfb1c4;
+}
+
+#question-header {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#question-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3vh;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
 @media all and (max-width: 500px) {
 
     #about-top-bar {
