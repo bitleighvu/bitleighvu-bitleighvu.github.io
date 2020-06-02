@@ -1,5 +1,45 @@
-#contact-form {
+
+#contact-text-box {
     width: 80%;
+}
+
+#contact-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2vh;
+}
+
+.descript-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+#contact-description {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+#contact-text {
+    font-size: 16px;
+}
+
+#email-col {
+    margin-bottom: 4vh;
+}
+
+#email-header {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#email {
+    font-size: 3vh;
+    color: #212529;
+}
+
+#contact-form {
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,10 +66,31 @@
 
 @media all and (max-width: 600px) {
     #contact-form {
-        width: 90%;
+        width: 100%;
+        margin-top: 5vh;
     }
 
     .submitButton {
         width: 100%;
+    }
+
+    .descript-box {
+        width: 80%;
+    }
+
+    #connect {
+        margin-bottom: 3vh;
+    }
+
+    #contact-description {
+        font-size: 28px;
+    }
+
+    #email-header, #email {
+        font-size: 20px;
+    }
+
+    #email-col {
+        margin-bottom: 2vh;
     }
 }
