@@ -11,6 +11,7 @@ const Footer = () => {
         <div className="row justify-content-around">
             <div className="col-4">
                 <div id="brand">BitLeigh Vu</div>
+                <div id="footer-text">You belong. You matter.</div>
                 <SocialMediaWhite />
             </div>
             <div className="col-5">
