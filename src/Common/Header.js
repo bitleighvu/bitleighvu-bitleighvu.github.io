@@ -1,17 +1,35 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SocialMedia from './SocialMedia';
 
 import './Header.css';
+import { getByTestId } from '@testing-library/react';
 
-const Header = () => {
+class Header extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {addClass: false}
+    }
 
-  return (
-    <div>
+    toggle() {
+      this.setState({addClass: !this.state.addClass});
+    }
+
+    render() {
+      let bodyClass = ['body'];
+      if (this.state.addClass) {
+        bodyClass.push('stop-scroll');
+      }
+
+      return(
+        <div>
         <nav className="navbar navbar-expand-md navbar-light" id="navigate-bar">
             <a className="navbar-brand" href="/" id="pg-brand">BitLeigh Vu</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+            <div className={bodyClass.join(' ')} onClick={this.toggle.bind(this)} >
+                <button className="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                    <div className="close-icon">✕</div>
+                </button>
+            </div>
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
@@ -27,11 +45,13 @@ const Header = () => {
                         <a className="nav-link-header-bar" href="/contact">Contact</a>
                     </li>
                 </ul>
-                <SocialMedia id="sm"/>
+                <SocialMedia className="sm-bar"/>
             </div>
         </nav>
     </div>
-  );
-};
+      );
+    }
+  }
+
 
 export default Header;
