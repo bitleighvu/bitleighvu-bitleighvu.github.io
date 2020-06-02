@@ -5,7 +5,6 @@
 
 #about-top-bar {
     width: 100%;
-    min-height: 20vh;
     margin-bottom: 5vh;
 }
 
@@ -77,8 +76,23 @@
 
     #about-box {
         width: 90%;
-        text-align: center;
+        text-align: left;
         font-size: 15px;
+    }
+
+    #question-header {
+        width: 90%;
+        font-size: 40px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+
+    #question-text {
+        width: 80%;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 5vh;
     }
 
 }
