@@ -7,29 +7,28 @@ const Header = () => {
 
   return (
     <div>
-        <nav className="navbar navbar-expand-lg" id="header1">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#center-text" aria-controls="center-text" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-            <div className="collapse navbar-collapse">
-                <ul className="navbar-nav">
-                    <div id="center-text">
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/resume">Resume</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
-                        </li>
-                    </div>
+        <nav className="navbar navbar-expand-md navbar-light" id="navigate-bar">
+            <a className="navbar-brand" href="/" id="pg-brand">BitLeigh Vu</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarText">
+                <ul className="navbar-nav mr-auto">
+                    <li className="nav-item">
+                        <a className="nav-link-header-bar" href="/">Home</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link-header-bar" href="/about">About</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link-header-bar" href="/resume">Resume</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link-header-bar" href="/contact">Contact</a>
+                    </li>
                 </ul>
+                <SocialMedia id="sm"/>
             </div>
-            <SocialMedia />
         </nav>
     </div>
   );
