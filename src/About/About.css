@@ -82,6 +82,7 @@
 
     #question-header {
         width: 90%;
+        margin: 0 auto;
         font-size: 40px;
         padding-top: 5vh;
         padding-bottom: 5vh;
