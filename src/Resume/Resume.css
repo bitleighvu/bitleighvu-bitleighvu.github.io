@@ -14,15 +14,6 @@
     margin: 0 auto;
 }
 
-.text-description {
-    width: 100%;
-    text-align: left;
-    font-size: 2.4vh;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Jost', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell'
-}
-
 .text-header {
     width: 100%;
     text-align: left;

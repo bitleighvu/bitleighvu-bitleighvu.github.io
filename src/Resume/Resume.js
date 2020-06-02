@@ -11,9 +11,6 @@ const Resume = () => {
         <div id="wrapper">
             <div id="resume-top-bar">
                 <div id="header-text-box">
-                    <div className="text-description">
-                        experience & leadership
-                    </div>
                     <div className="text-header">
                         Resume
                     </div>
@@ -61,20 +58,20 @@ const Resume = () => {
                             description={"Implement new Card Replacement Module for all consumers & Upgraded Back-End Error Handling to increase user experience"}
                         />
                         <WorkItem 
-                            job={"Resident Advisor"}
-                            company={"Georgia Institute of Technology"}
-                            link={"https://www.gatech.edu/"}
-                            location={"Atlanta, Georgia"}
-                            date={"August 2018 - Present"}
-                            description={"Provide security and build relationships with first-year students to provide support in residence halls"}
-                        />
-                        <WorkItem 
                             job={"Technical Implementation Engineering Intern"}
                             company={"Landis+Gyr"}
                             link={"https://www.landisgyr.com/"}
                             location={"Alpharetta, Georgia"}
                             date={"January 2019 - April 2019"}
                             description={"Provide meter configuration to align with customers’ proposals and updates to proper databases    "}
+                        />
+                        <WorkItem 
+                            job={"Resident Advisor"}
+                            company={"Georgia Institute of Technology"}
+                            link={"https://www.gatech.edu/"}
+                            location={"Atlanta, Georgia"}
+                            date={"August 2018 - Present"}
+                            description={"Provide security and build relationships with first-year students to provide support in residence halls"}
                         />
                     </div>
                 </div>
@@ -114,7 +111,7 @@ const Resume = () => {
                         />
                         <WorkItem 
                             job={"Software Developer"}
-                            company={"Class Project"}
+                            company={"Centsible"}
                             location={"Atlanta, Georgia"}
                             date={"August 2018 - December 2018"}
                             description={"An internal resource planning Android Application to efficiently track and categorize donations to non-profit organizations. Track donations and utilize distribution metrics to further optimize services"}
