@@ -12,8 +12,13 @@ const Home = () => {
             alt="Home"
             id="large-images"
           ></img>
-          <div id="home-header">
-            You belong. You matter.
+          <div id="quote">
+            <div id="home-header">
+              “The only real mistake is the one from which we learn nothing.”
+            </div>
+            <div id="author"> 
+              - Henry Ford
+            </div>
           </div>
       </div>
   </div>

@@ -15,18 +15,23 @@
     z-index: -1;
 }
 
-.body.stop-scroll {
-    overflow: hidden;
-}
-
-#home-header {
+#quote {
     width: 80%;
     margin: 0 auto;
-    font-size: 8vw;
-    color: black;
     position: relative;
     text-align: center;
     padding-top: 30vh;
+    color: whitesmoke;
+}
+
+#home-header {
+    font-size: 4vw;
+    font-style: italic;
+}
+
+#author {
+    float: right;
+    font-size: 2.5vw;
 }
 
 @media all and (max-width: 500px) {
@@ -35,8 +40,17 @@
         z-index: -1;
     }
 
-    #home-header {
+    #quote {
+        width: 85%;
         top: 60%;
-        font-size: 10vw;
+        
+    }
+
+    #home-header {
+        font-size: 7vw;
+    }
+
+    #author {
+        font-size: 5vw;
     }
 }
