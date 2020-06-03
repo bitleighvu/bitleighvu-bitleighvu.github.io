@@ -51,7 +51,7 @@
         height: 76vh;
         transition: 100ms ease-in-out 0s;
         padding: 100ms ease-in-out;
-        transform: 50ms ease-in-out 50ms;
+        transform: 100ms ease-in-out 0ms;
 
         position: relative;
         display: flex;
