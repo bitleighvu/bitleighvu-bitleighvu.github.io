@@ -26,16 +26,16 @@ class Header extends React.Component {
             <div className={bodyClass.join(' ')} onClick={this.toggle.bind(this)} >
                 <button className="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                    <div className="close-icon">✕</div>
+                    <div className="close-icon py-1">✕</div>
                 </button>
             </div>
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a className="nav-link-header-bar" href="/">Home</a>
+                        <a className="nav-link-header-bar" href="/about">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link-header-bar" href="/about">About</a>
+                        <a className="nav-link-header-bar" href="/projects">Projects</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link-header-bar" href="/resume">Resume</a>
