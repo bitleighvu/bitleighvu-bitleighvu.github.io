@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SocialMedia from './SocialMedia';
 
 import './Header.css';
-import { getByTestId } from '@testing-library/react';
 
 class Header extends React.Component {
     constructor(props) {
