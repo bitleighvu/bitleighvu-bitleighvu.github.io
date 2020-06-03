@@ -50,9 +50,7 @@ const Projects = () => {
                          text={"A small graphics library that is similar in design to OpenGL for transformation, projection, and mapping to the screen of user-provided lines."}
                          date={"January 29, 2020"}
                      />
-                 </div> 
-                 <div className="card-deck">
-                    <ProjectCard 
+                     <ProjectCard 
                          src={process.env.PUBLIC_URL + "/images/project/kalSquares.png"}
                          alt={"Orthographic Squares"}
                          title={"Tech Kaleidoscope Squares"}
@@ -60,7 +58,11 @@ const Projects = () => {
                          text={"A Georgia Tech-themed interactive program that mimics a pattern similar to a kaleidoscope by controlling one satellite square. "}
                          date={"January 8, 2020"}
                      />
-                 </div>
+                 </div> 
+
+                 <div className="sub-projHeader">
+                    More projects to be added soon...
+                </div> 
             </div>
         </div> 
     );

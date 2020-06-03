@@ -5,7 +5,8 @@
 #project-box {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 2vh;
+    padding-bottom: 5vh;
+    
 }
 
 .card-title {
@@ -18,11 +19,11 @@
 }
 
 .card-deck {
-    margin-top: 2vh;
+    margin-bottom: 10vh;
 }
 
 .proj-card {
-    max-width: 16rem;
+    min-width: 16rem;
 }
 
 @media all and (max-width: 700px) {
