@@ -9,18 +9,18 @@ const Footer = () => {
   return (
     <div id="footer">
         <div className="row justify-content-around">
-            <div className="col-4">
+            <div className="col-4 pad-l">
                 <div id="brand">BitLeigh Vu</div>
                 <div id="footer-text">You belong. You matter.</div>
                 <SocialMediaWhite />
             </div>
-            <div className="col-5">
+            <div className="col-7">
                 <div className="row section-header-box">
-                    <div className="col-4 text-col">
-                        <a href="/" className="nav-link underline">Home</a>
+                    <div className="col-4 text-col remove-pad">
                         <a href="/about" className="nav-link underline">About</a>
+                        <a href="/projects" className="nav-link underline">Projects</a>
                     </div>
-                    <div className="col-5 text-col">
+                    <div className="col-5 text-col remove-pad">
                         <a href="/resume" className="nav-link underline">Resume</a>
                         <a href="/contact" className="nav-link underline">Contact</a>
                     </div>

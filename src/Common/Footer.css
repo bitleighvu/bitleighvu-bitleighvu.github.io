@@ -29,7 +29,7 @@
     justify-content: space-around;
 }
 .text-col {
-    padding: 0pt;
+    padding-left: 0px;
     text-align: left;
     font-size: 17px;
     display: block;
@@ -38,7 +38,6 @@
 .nav-link {
     display: block;
 }
-
 
 .underline {
     text-decoration: underline;
@@ -56,6 +55,10 @@
         height: 16rem;
     }
 
+    .pad-l {
+        margin-left: 3vw;
+    }
+
     #brand {
         font-size: 22px;
     }
@@ -63,4 +66,10 @@
     .section-header-box {
         justify-content: flex-start;
     }
+
+    .remove-pad {
+        padding-left: 0px;
+        margin-right: 3vw;
+    }
+    
 }
