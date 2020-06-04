@@ -55,7 +55,7 @@ const Resume = () => {
                             link={"https://www.americanexpress.com/"}
                             location={"Phoenix, Arizona"}
                             date={"May 2019 - August 2019"}
-                            description={"Implement new Card Replacement Module for all consumers & Upgraded Back-End Error Handling to increase user experience"}
+                            description={"Implemented new design for a card replacement module deployed to an initial ~30 million users. Upgraded and implemented feature for back-end error handling service for business card holders to re-access debts and persistently query database on error."}
                         />
                         <WorkItem 
                             job={"Technical Implementation Engineering Intern"}
@@ -63,7 +63,7 @@ const Resume = () => {
                             link={"https://www.landisgyr.com/"}
                             location={"Alpharetta, Georgia"}
                             date={"January 2019 - April 2019"}
-                            description={"Provide meter configuration to align with customers’ proposals and updates to proper databases    "}
+                            description={"Install and update electrical meter configuration and initial database setup for over 300 electrical cooperatives in North America"}
                         />
                         <WorkItem 
                             job={"Resident Advisor"}
@@ -71,7 +71,7 @@ const Resume = () => {
                             link={"https://www.gatech.edu/"}
                             location={"Atlanta, Georgia"}
                             date={"August 2018 - Present"}
-                            description={"Provide security and build relationships with first-year students to provide support in residence halls"}
+                            description={"Maintain safety of 250+ residents as a first-responder to emergency situations. Coordinate and advise budgeting, marketing, and resource allocation for 50+ events yearly. Awarded 2018-2019 Community Builder of the Year based on number of engaging events and involvement within the residence hall."}
                         />
                     </div>
                 </div>
@@ -107,14 +107,14 @@ const Resume = () => {
                             link={"https://studentcenter.gatech.edu/scpc"}
                             location={"Atlanta, Georgia"}
                             date={"April 2018 - Present"}
-                            description={"Utilize a React framework and MongoDB database to create a site to manage Georgia Tech’s student-led event planning organization"}
+                            description={"Designed and implemented a web application to manage student-led event planning organization for Georgia Tech’s campus. Completed user research and wireframes for design vision and user interaction testing. Used Agile and SCRUM methodologies in 2-week sprints to lead a small development team."}
                         />
                         <WorkItem 
                             job={"Software Developer"}
                             company={"Centsible"}
                             location={"Atlanta, Georgia"}
                             date={"August 2018 - December 2018"}
-                            description={"An internal resource planning Android Application to efficiently track and categorize donations to non-profit organizations. Track donations and utilize distribution metrics to further optimize services"}
+                            description={"An internal resource planning Android Application to efficiently track and categorize donations to non-profit organizations and utilize distribution metrics to further optimize services."}
                         />
                     </div>
                 </div>
@@ -127,7 +127,7 @@ const Resume = () => {
                             link={"https://sga.gatech.edu/"}
                             location={"Atlanta, Georgia"}
                             date={"May 2019 - May 2020"}
-                            description={"Facilitate communication with organizations across campus to ensure proper IT standards and security"}
+                            description={"Facilitate initiatives and roundtables on-campus to identify fall-throughs in information technology with student organizations. Led bonding events and socials throughout the year to engage team members."}
                         />
                         <WorkItem 
                             job={"General Member"}
@@ -135,7 +135,7 @@ const Resume = () => {
                             link={"https://sga.gatech.edu/"}
                             location={"Atlanta, Georgia"}
                             date={"September 2017 - Present"}
-                            description={"Responsible for leading homecoming week activities & planning events campus-wide; Helped increase budget by $24,000"}
+                            description={"Planned and led homecoming week activities including the homecoming concert. Volunteered and assisted in more than 60+ events campus-wide. Led recruitment initiatives on campus biannually and helped increase annual budget by ~$24,000."}
                         />
                         <WorkItem 
                             job={"Volunteer"}
