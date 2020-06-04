@@ -140,7 +140,7 @@ const Resume = () => {
                         <WorkItem 
                             job={"Volunteer"}
                             company={"GT Believe Our Purpose, Share Our Plan"}
-                            link={"http://bopsop.gtorg.gatech.edu/"}
+                            link={"https://bopsop.gtorg.gatech.edu/"}
                             location={"Atlanta, Georgia"}
                             date={"August 2017 - May 2018"}
                             description={"Volunteered weekly at a local elementary to tutor and facilitate computer science and writing workshops"}
