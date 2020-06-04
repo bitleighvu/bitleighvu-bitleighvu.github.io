@@ -52,7 +52,7 @@ const Projects = () => {
                      />
                      <ProjectCard 
                          src={process.env.PUBLIC_URL + "/images/project/kalSquares.png"}
-                         alt={"Orthographic Squares"}
+                         alt={"Kaleidoscope Squares"}
                          title={"Tech Kaleidoscope Squares"}
                          link={"https://github.com/bitleighvu/KaleidoSquares"}
                          text={"A Georgia Tech-themed interactive program that mimics a pattern similar to a kaleidoscope by controlling one satellite square. "}

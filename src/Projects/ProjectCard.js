@@ -10,7 +10,7 @@ const ProjectCard = ({ src, alt, title, link, text, date }) => {
             />
         <div className="card-body">
             <a
-                href="https://github.com/bitleighvu/BezierPatches"
+                href={link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card-title"
