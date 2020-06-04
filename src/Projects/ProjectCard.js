@@ -13,7 +13,6 @@ const ProjectCard = ({ src, alt, title, link, text, date }) => {
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card-title"
             >
               <h5 className="card-title">{title}</h5>
             </a>
