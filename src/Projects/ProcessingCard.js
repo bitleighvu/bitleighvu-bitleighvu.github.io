@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ProjectCard = ({ src, alt, title, link, text, date }) => {
+const ProcessingCard = ({ src, alt, title, link, text, date }) => {
 
   return (  
-    <div className="card">
+      <div className="card proc-card">
         <img className="card-img-top"
             src={src}
             alt={alt}
@@ -25,4 +25,4 @@ const ProjectCard = ({ src, alt, title, link, text, date }) => {
   );
 };
 
-export default ProjectCard;
+export default ProcessingCard;

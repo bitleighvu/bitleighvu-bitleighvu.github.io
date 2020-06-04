@@ -14,20 +14,77 @@
 }
 
 .sub-projHeader {
-    font-size: 5vh;
+    font-size: 4.5vh;
     font-weight: 400;
 }
 
-.card-deck {
-    margin-bottom: 10vh;
+.card {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.proj-card {
-    min-width: 16rem;
+.slider-bars {
+    margin-bottom: 6vh;
 }
 
-@media all and (max-width: 700px) {
-    .proj-card {
-        max-width: unset;
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;;
+}
+
+@media only screen and (min-width: 1100px) {
+    .proc-card {
+        min-height: 45rem;
+    }
+
+    .web-card {
+        min-height: 42rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .proc-card {
+        min-height: 42rem;
+    }
+
+    .web-card {
+        min-height: 42rem;
+    }
+}
+
+
+@media only screen and (max-width: 880px) {
+    .proc-card {
+        min-height: 40rem;
+    }
+
+    .web-card {
+        min-height: 38rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .sub-projHeader {
+        text-align: center;
+        font-size: 3.4vh;
+    }
+    .proc-card {
+        min-height: 45rem;
+    }
+
+    .web-card {
+        min-height: 45rem;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .proc-card {
+        min-height: 44rem;
+    }
+
+    .web-card {
+        min-height: 38rem;
     }
 }
