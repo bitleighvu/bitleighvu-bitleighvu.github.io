@@ -17,6 +17,10 @@
     margin-bottom: 15px;
 }
 
+#pronouns {
+    font-size: 14px;
+}
+
 #footer-text {
     color: white;
     font-size: 18px;
@@ -61,6 +65,10 @@
 
     #brand {
         font-size: 22px;
+    }
+
+    #pronouns {
+        font-size: 14px;
     }
 
     .section-header-box {

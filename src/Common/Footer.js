@@ -10,7 +10,9 @@ const Footer = () => {
     <div id="footer">
         <div className="row justify-content-around">
             <div className="col-4 pad-l">
-                <div id="brand">BitLeigh Vu</div>
+                <div id="brand">BitLeigh Vu
+                    <div id="pronouns">(she/her/hers)</div>
+                 </div>
                 <div id="footer-text">You belong. You matter.</div>
                 <SocialMediaWhite />
             </div>
