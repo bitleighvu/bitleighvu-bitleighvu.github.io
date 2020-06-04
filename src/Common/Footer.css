@@ -17,6 +17,11 @@
     margin-bottom: 15px;
 }
 
+#name-footer, #name-footer:hover, #name-footer:active {
+    color: white;
+    text-decoration: none;
+}
+
 #pronouns {
     font-size: 14px;
 }
