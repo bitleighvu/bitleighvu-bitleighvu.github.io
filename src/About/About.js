@@ -39,7 +39,18 @@ const About = () => {
                         As I was volunteering at a local elementary school at this time, I asked if I could teach Scratch to students as a means to dip their toes into the world of programming! These interactions drove me to change trajectory to where I am today.
                     </p>
                     <p>
-                        Computer science and programming to me is no longer that scene from the Matrix with a black screen and neon binary numbers floating about. It’s a means to analyze and visualize data, share content, fly space ships, and so much more. 
+                        Computer science and programming to me are no longer that scene from the Matrix with a black screen and neon binary numbers floating about. It’s a means to analyze and visualize data, share content, fly space shuttles, and so much more we have yet to see and I can’t wait.
+                    </p>
+                </div>
+            </div>
+            <div id="intersection-box">
+                <div id="intersection-header">Intersection of People & Programming</div>
+                <div id="intersection-text">
+                    <p>
+                        Before I took my first programing course, everything that was remotely related to programming was daunting as I have never seen ‘underneath the hood’ before. Even after completing my initial programming course and changing majors, programming didn’t come easy to me and some concepts left me wondering if this really was the right path for me. I found the best way I could truly learn content was to relay information to someone else and teach them the concepts the best way I knew how. 
+                    </p>
+                    <p>
+                        The software development internships I have had provided me with a foundation of knowledge and skills for the workforce, but working on these technologies I found myself asking questions on features and how they were to improve user interactions or workflows. I found myself looking beyond solely software development to see if there was a position I could do more than solely code, but be in the technical conversation for users and researching their needs for implementation. This user-centric mindset and effective communication has allowed me to venture into program/project management to deliver business outcomes for users.
                     </p>
                 </div>
             </div>

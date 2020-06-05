@@ -43,7 +43,7 @@
     font-size: 5vh;
     text-align: center;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 #question-text {
@@ -51,6 +51,27 @@
     margin: 0 auto;
     font-size: 3vh;
     color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+#intersection-box {
+    width: 100%;
+}
+
+#intersection-header {
+    font-weight: bold;
+    color: #e2725b;;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+#intersection-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3vh;
     text-align: center;
     padding-bottom: 10vh;
 }
@@ -80,16 +101,15 @@
         font-size: 15px;
     }
 
-    #question-header {
+    #question-header, #intersection-header {
         width: 90%;
         margin: 0 auto;
-        font-size: 40px;
+        font-size: 35px;
         padding-top: 5vh;
         padding-bottom: 5vh;
     }
 
-
-    #question-text {
+    #question-text, #intersection-text {
         width: 80%;
         font-size: 15px;
         text-align: left;
