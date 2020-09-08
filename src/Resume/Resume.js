@@ -28,7 +28,7 @@ const Resume = () => {
                             degree={"Candidate for Bachelor of Science in Computer Science"}
                             location={"Atlanta, Georgia"}
                             date={"June 2017 - Present"}
-                            description={"Threads: Media & People | Concentration: Information Technology Management | Major GPA: 3.75/4.0"}
+                            description={"Threads: Media & People | Major GPA: 3.75/4.0"}
                         />
                         <EducationItem 
                             school={"Georgia College & State University"}
@@ -43,11 +43,12 @@ const Resume = () => {
                     <div className="col-sm-4 section-header">Work Experience</div>
                     <div className="col-sm-8">
                         <WorkItem 
-                            job={"Technical Program Manager Intern"}
+                            job={"Technical Project Manager Intern"}
                             company={"American Express"}
                             link={"https://www.americanexpress.com/"}
                             location={"Remote"}
-                            date={"Beginning July 2020"}
+                            date={"July 2020"}
+                            description={"Utilized Agile and Scrum ceremonies with JIRA to effectively monitor and track team progress. Communicated with teams during misalignments to address blockers and update program board."}
                         />
                         <WorkItem 
                             job={"Software Developer Intern"}
@@ -81,11 +82,14 @@ const Resume = () => {
                         <ul id="lists-box">
                             <li>Java</li>
                             <li>JavaScript</li>
-                            <li>Python</li>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>React</li>
                             <li>Redux</li>
+                            <li>JIRA</li>
+                            <li>Agile</li>
+                            <li>Scrum</li>
+                            <li>Wireframes</li>
                         </ul>
                     </div>
                 </div>
@@ -107,7 +111,7 @@ const Resume = () => {
                             link={"https://studentcenter.gatech.edu/scpc"}
                             location={"Atlanta, Georgia"}
                             date={"April 2018 - Present"}
-                            description={"Designed and implemented a web application to manage student-led event planning organization for Georgia Tech’s campus. Completed user research and wireframes for design vision and user interaction testing. Used Agile and SCRUM methodologies in 2-week sprints to lead a small development team."}
+                            description={"Designed and implemented a web application to manage student-led event planning organization for Georgia Tech’s campus. Completed user research and wireframes for design vision and user interaction testing. Used Agile and Scrum methodologies in 2-week sprints to lead a small development team."}
                         />
                         <WorkItem 
                             job={"Software Developer"}
