@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div id="about-box">
                     <img
-                        src={process.env.PUBLIC_URL + "/images/aboutPic2.jpg"}
+                        src={process.env.PUBLIC_URL + "/images/aboutPic2.JPG"}
                         alt="BitLeigh's Headshot"
                         id="center-pic"
                     ></img>
