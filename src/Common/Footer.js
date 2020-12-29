@@ -16,7 +16,7 @@ const Footer = () => {
                     </a>
                     <div id="pronouns">(she/her/hers)</div>
                 </div>
-                <div id="footer-text">You belong. You matter.</div>
+                <div id="footer-text"></div>
                 <SocialMediaWhite />
             </div>
             <div className="col-7">

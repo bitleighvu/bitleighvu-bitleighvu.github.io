@@ -22,10 +22,10 @@ const About = () => {
                         id="center-pic"
                     ></img>
                     <p>
-                        BitLeigh Vu currently resides in Atlanta, Georgia while completing her Bachelor’s Degree Program in Computer Science at Georgia Institute of Technology graduating in Spring 2021. During her time at Tech, she has been involved in many areas of campus including Student Government Association as an Information Technology Lead, Resident Advisor for first-year and upperclassmen students, Volunteer for Believe Our Purpose, Share Our Plan, and Lead Front-End Web Developer for Student Center Programs Council.
+                        BitLeigh Vu currently resides in Atlanta, Georgia while completing her Bachelor’s Degree Program in Computer Science at Georgia Institute of Technology graduating in Spring 2021. During her time at Tech, she has been involved in many areas of campus including Student Government Association as an Information Technology Lead, Resident Advisor for first-year and upperclassmen students, Volunteer for Believe Our Purpose, Share Our Plan, and Lead Front-End Engineer for Student Center Programs Council.
                     </p>
                     <p>
-                        In her spare time, she enjoys testing new recipes in the kitchen, playing Stardew Valley, and (sometimes) working out. She loves her 13-year-old Miniature Australian Shepherd, copious amounts of cold brew with (a large) splash of hazelnut creamer, and homemade bread.</p>
+                        In her spare time, she enjoys testing new recipes in the kitchen, playing Stardew Valley, and (sometimes) working out. She loves her 13-year-old Miniature Australian Shepherd, copious amounts of cold brew with (a large) splash of hazelnut creamer, and homemade breads.</p>
                 </div>
                 
             </div>
